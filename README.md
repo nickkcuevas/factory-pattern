@@ -4,6 +4,15 @@ Example implementation of the Factory Pattern in Python using FastAPI.
 
 ## Setup
 
+Before setting up the dependencies, you will need to set up the environment:
+
+$ virtualenv venv
+$ source venv/source/activate
+
+So, once you have your environment activated, then you will be able to run 
+your dependencies installment:
+
+
 1. Install dependencies:
 pip install -r requirements.txt
 
@@ -60,4 +69,3 @@ curl -X POST "http://localhost:8000/notifications/send" \
       "api_secret": "your-secret"
     }
   }'
-  
